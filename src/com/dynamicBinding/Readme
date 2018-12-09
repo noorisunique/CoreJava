@@ -1,0 +1,3 @@
+//Why binding of static, final and private methods is always a static binding? 
+When type of the object is determined at compiled time(by the compiler), it is known as static binding.
+	

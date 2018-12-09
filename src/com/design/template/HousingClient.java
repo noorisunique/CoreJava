@@ -7,12 +7,13 @@ public class HousingClient {
 		HouseTemplate houseType = new WoodenHouse();
 
 		// using template method
-		houseType.buildHouse();
+		//houseType.buildHouse();
 		System.out.println("************");
 
 		houseType = new GlassHouse();
 
-		houseType.buildHouse();
+		houseType.buildPillars();
+		
 	}
 
 }

@@ -1,0 +1,26 @@
+Composition vs Aggregation  
+Answer Question
+Encapsulation vs Abstractions  
+Answer Question
+Inheritence vs Composition  
+Answer Question
+Singleton in presences of multiple class loaders  
+Answer Question
+How paramgen is Garbage collected  
+Answer Question
+what is ThreadLocal, CountDownLatch, CyclicBarrier?  
+Answer Question
+Dirty read, Fantom read and non repeatable reads in case of Databases and Hibernate.  
+Answer Question
+Spring bean scopes  
+Answer Question
+Suggest test cases for a method which has nested if else inside  
+Answer Question
+ConcurrentHashmap: 3 threads reading and 1 writing. the writing thread calls map.clear(). What exception or effect will be caused by this?  
+Answer Question
+BlockingQueue based producer consumer problem.  
+Answer Question
+How many design patterns you have implemented?  
+Answer Question
+Have you worked with JMS  
+Answer Question

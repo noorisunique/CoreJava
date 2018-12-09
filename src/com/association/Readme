@@ -1,0 +1,14 @@
+https://www.geeksforgeeks.org/association-composition-aggregation-java/
+
+Java association can balance, one-to-many, many-to-one, and many-to-many
+
+a. Aggregation in Java
+Now, Aggregation in Java is a special type of association. Java Aggregation has the following characteristics –
+
+A has-A relationship is represented here.
+It is a one-way relationship, i.e. a unidirectional relationship.
+Ending one entity won’t affect another, both can be present independently.
+
+When do we use Aggregation ??
+Code reuse is best achieved by aggregation.
+

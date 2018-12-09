@@ -12,6 +12,7 @@ public class Febonacci {
 			c=f+b;
 			f=b;
 			b=c;
+			//if(c%2==0)
 			System.out.println(c);
 			n++;
 		}

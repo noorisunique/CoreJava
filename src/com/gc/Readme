@@ -1,0 +1,25 @@
+https://www.javatpoint.com/Garbage-Collection
+
+There are generally four different ways to make an object eligible for garbage collection.
+1.Nullifying the reference variable
+2.Re-assigning the reference variable
+3.Object created inside method
+4.Island of Isolation
+
+How can an object be unreferenced?
+There are many ways:
+
+By nulling the reference
+By assigning a reference to another
+By anonymous object etc.
+
+1) By nulling a reference:
+Employee e=new Employee();  
+e=null;  
+
+2) By assigning a reference to another:
+Employee e1=new Employee();  
+Employee e2=new Employee();  
+e1=e2;//now the first object referred by e1 is available for garbage collection  
+3) By anonymous object:
+new Employee();  
