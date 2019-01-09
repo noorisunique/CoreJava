@@ -9,11 +9,10 @@ public class SortArrayByFrequencybyMapJava8AscOrder {
 	static void sortByFreq(int a[]) {
 		Map<Integer, Integer> map = new HashMap<>();
 
-		/* Logic to place the elements to Map */
-		for (int i = 0; i < a.length; i++) {
+		for (int i : a) {
 			if (map.get(a[i]) != null) {
-				int frequency = map.get(a[i]);
-				map.put(a[i], frequency + 1);
+
+				map.put(a[i], map.get(a[i]) + 1);
 
 			} else {
 				map.put(a[i], 1);
@@ -43,7 +42,7 @@ public class SortArrayByFrequencybyMapJava8AscOrder {
 	}
 
 	public static void main(String args[]) {
-		int a[] = {1,6,5, 5, 3, 2, 1, 0, 5, 3, 2, 4, 1, 2, 3, 5, 4 };
+		int a[] = { 1, 6, 5, 5, 3, 2, 1, 0, 5, 3, 2, 4, 1, 2, 3, 5, 4 };
 
 		System.out.println("Before Sorting");
 		for (int i = 0; i < a.length; i++) {

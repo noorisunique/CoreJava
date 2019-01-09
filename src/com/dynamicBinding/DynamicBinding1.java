@@ -19,6 +19,8 @@ public class DynamicBinding1 {
 	public static void main(String[] args) {
 		ParentDemo pd = new ChildDemo();
 		pd.get();
-		//pd.test();
+		ParentDemo pd1=null;
+		pd1.get();
+		//pd.test();  ->Error
 	}
 }

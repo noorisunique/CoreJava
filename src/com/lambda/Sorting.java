@@ -47,20 +47,17 @@ public class Sorting {
 			}
 		});
 
-	//	list.forEach(x -> System.out.println(x.getName()));
+		// list.forEach(x -> System.out.println(x.getName()));
 
 		// java8
 
 		list.sort((e1, e2) -> e1.getId() - e2.getId());
-		//list.forEach(x -> System.out.println(x.getId()));
+		// list.forEach(x -> System.out.println(x.getId()));
 
-		String emp = list.stream().filter(x -> "A1".equals(x.getName()))
-				.map(Emp::getName)
-				.findAny()
-				.orElse("");
+		String emp = list.stream().filter(x -> "A1".equals(x.getName())).map(Emp::getName).findAny().orElse("");
 		System.out.println(emp);
-		
-		List<String> e1=list.stream().map(Emp::getName).collect(Collectors.toList());
+
+		List<String> e1 = list.stream().map(Emp::getName).collect(Collectors.toList());
 		e1.forEach(System.out::println);
 
 	}

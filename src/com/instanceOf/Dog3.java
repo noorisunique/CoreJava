@@ -14,7 +14,7 @@ class Dog3 extends Animal1 {
 		System.out.println("Test");
 	}
 
-	static void method(Animal1 a) {
+	 static void method(Animal1 a) {
 		if (a instanceof Dog3) {
 			Dog3 d = (Dog3) a;// downcasting
 			System.out.println("ok downcasting performed");
@@ -26,6 +26,8 @@ class Dog3 extends Animal1 {
 	public static void main(String[] args) {
 		Animal1 a = new Dog3();
 		Dog3.method(a);
+		/*Dog3 d=new Dog3();
+		d.method(a);*/
 	}
 
 }

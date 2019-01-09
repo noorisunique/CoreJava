@@ -1,0 +1,17 @@
+Benefits of Encapsulation
+1.The fields of a class can be made read-only or write-only.
+2.A class can have total control over what is stored in its fields.
+3.Encapsulation helps us in binding the data(instance variables) and the 
+	member functions(that work on the instance variables) of a class.
+4.Encapsulation is also useful in hiding the data(instance variables) of a class from an illegal direct access.
+5.Encapsulation also helps us to make a flexible code which is easy to change and maintain.
+6.security, flexibility and its easy maintainability through encapsulation.
+7.Data Hiding , Flexibility ,Reusability ,Testing of the code
+
+Benefits of Abstraction
+1.It reduces the complexity of viewing the things.
+2.Avoids code duplication and increases reusability.
+3.Helps to increase security of an application or program as only important details are provided to the user.
+
+Diff Encapsulation and Abstraction
+Encapsulation is data hiding(information hiding) while Abstraction is detail hiding(implementation hiding).

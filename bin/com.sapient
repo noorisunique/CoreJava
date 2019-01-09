@@ -24,3 +24,51 @@ How many design patterns you have implemented?
 Answer Question
 Have you worked with JMS  
 Answer Question
+
+---What are the types of class loaders in Java
+
+
+----OOPS
+inheritance
+polymorphism
+abstraction
+Encapsulation 
+
+------How paramgen is Garbage collected  
+
+2. It depends on JDK versions.
+In JDK before Java SE 6 Update 3 or earlier, "-XX:+CMSPermGenSweepingEnabled" is used to enable GC in PermGen. By default, GC will never happen in PermGen.
+
+In JDK 7, "-XX:+CMSPermGenSweepingEnabled" is no longer used because GC by default will happen in PermGen. However another parameter "-XX:+CMSClassUnloadingEnabled" is introduced to tell the PermGen GC sweep to take action on class objects. By default, class objects get an exemption, even when the PermGen space is being visited during a garabage collection.
+
+In JDK 8, PermGen no longer exists.
+
+3. -Xmx (the maximum heap size) does NOT include the PermGen.
+-XX:MaxPermSize controls the maximum memory used by the permanent generation.
+-XX:PermSize controls the initial memory used by the permanent generation.
+
+
+//ConcurrentHashMap
+Concurrency-Level
+Load-Factor: It's a threshold, used to control resizing.
+Initial Capacity
+
+
+A.Mark and sweep
+	1.Normal deletion 
+	 	mark-sweep 
+	2.Deletion with compacting
+		mark-sweep-compact
+	3.Deletion with copying 
+		mark-copy 
+B.Concurrent mark sweep (CMS) garbage collection
+	To use CMS GC, use below JVM argument:
+		-XX:+UseConcMarkSweepGC
+C.Serial garbage collection
+	-XX:+UseSerialGC
+D.Parallel garbage collection
+	Simimar to serial GC, It uses mark-copy in the Young Generation and mark-sweep-compact in the Old Generation.
+ 	Multiple concurrent threads are used for marking and copying / compacting phases. 
+	You can configure the number of threads using -XX:ParallelGCThreads=N option.
+		
+

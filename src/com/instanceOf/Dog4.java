@@ -28,7 +28,7 @@ class Dog4 extends Animal2 {
 		Dog4.method(a);
 		
 		Animal2 a1=new Animal2();
-		Dog4.method(a1);////Now ClassCastException but not in case of instanceof operator  
+		//Dog4.method(a1);////Now ClassCastException but not in case of instanceof operator  
 	}
 
 }

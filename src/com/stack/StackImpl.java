@@ -100,5 +100,6 @@ class StackImpl {
 		}
 */
 		stack.traverse();
+		
 	}
 }

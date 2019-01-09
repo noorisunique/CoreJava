@@ -1,0 +1,30 @@
+https://www.geeksforgeeks.org/thread-pools-java/
+Executor Thread Pool Methods
+
+Method                         Description
+newFixedThreadPool(int)           Creates a fixed size thread pool.
+newCachedThreadPool()             Creates a thread pool that creates new 
+                                  threads as needed, but will reuse previously 
+                                  constructed threads when they are available
+newSingleThreadExecutor()         Creates a single thread. 
+
+cyclicbarrier
+https://www.geeksforgeeks.org/java-util-concurrent-cyclicbarrier-java/
+a CyclicBarrier is used when multiple thread carry out different sub tasks and the output of these sub tasks
+   need to be combined to form the final output
+
+
+#########Concurrency
+CyclicBarrier
+Phaser
+CountDownLatch
+Exchanger
+Semaphore
+SynchronousQueue
+
+
+Semaphore- it an abstraction that allows n units to be acquired, and offers acquire and release mechanisms. It safely 
+			allows us to ensure that only n processes can access a certain resource at a given time.
+
+A java.util.concurrent.CountDownLatch is a concurrency construct that allows one or more 
+	threads to wait for a given set of operations to complete. 

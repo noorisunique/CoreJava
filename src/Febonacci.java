@@ -1,21 +1,32 @@
 
+
 public class Febonacci {
 
+	static void findvalue(int a[], int index) {
+
+		System.out.println(a[index]);
+	}
+
 	public static void main(String[] args) {
-		int n=1;
-		int f=1;
-		int b=2;
-		int c=0;
-		System.out.println(f);
-		System.out.println(b);
-		while(n<=10){
-			c=f+b;
-			f=b;
-			b=c;
-			//if(c%2==0)
-			System.out.println(c);
-			n++;
+		int count = 0;
+		int f = 1;
+		int b = 2;
+		int c = 0;
+		int a[] = new int[1500];
+
+		a[count++] = c;
+		a[count++] = f;
+		a[count++] = b;
+
+		while (count < 1500) {
+
+			c = f + b;
+			f = b;
+			b = c;
+			a[count++] = c;
 		}
+
+		findvalue(a, 1000);
 
 	}
 

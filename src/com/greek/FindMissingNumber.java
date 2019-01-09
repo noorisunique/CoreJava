@@ -6,13 +6,13 @@ public class FindMissingNumber {
 		int i, total;
 		total = (n + 1) * (n + 2) / 2;
 		for (i = 0; i < n; i++)
-			total -= a[i];
+			total =total- a[i];
 		return total;
 	}
 
 	/* program to test above function */
 	public static void main(String args[]) {
-		int a[] = { 1, 2, 4, 5, 6 };
+		int a[] = { 1, 4, 5, 6, 2 };
 		int miss = getMissingNo(a, 5);
 		System.out.println(miss);
 	}

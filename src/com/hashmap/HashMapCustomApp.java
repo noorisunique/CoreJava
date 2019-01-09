@@ -37,7 +37,7 @@ class HashMapCustom<K, V> {
     * @param newKey
     * @param data
     */
-   public void put(K newKey, V data){
+   public void put(K newKey, V data){ 
       if(newKey==null)
           return;    //does not allow to store null.
      
