@@ -23,8 +23,8 @@ public class EnumWithConcretNotAbstractMethod {
 
 	public static void main(String[] args) {
 		Color1 c1 = Color1.RED;
-		System.out.println(c1);
-		c1.colorInfo();
+		/*System.out.println(c1);
+		c1.colorInfo()*/;
 	}
 
 }

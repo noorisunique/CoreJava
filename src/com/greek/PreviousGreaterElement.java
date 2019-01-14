@@ -16,7 +16,7 @@ class PreviousGreaterElement {
 			// greater than arr[i].
 			int j;
 			for (j = i - 1; j >= 0; j--) {
-				if (arr[i] < arr[j]) {
+				if (arr[j] > arr[i]) {
 					System.out.print(arr[j] + ", ");
 					break;
 				}
