@@ -1,4 +1,4 @@
-package greek.com;
+package com.greek;
 
 public class moveAllZeroToEndOfArraySingleLoop {
 

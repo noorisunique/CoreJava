@@ -1,4 +1,4 @@
-package greek.com;
+package com.greek;
 
 public class SegregatePositiveAndNegative {
 	public static void main(String[] args) {

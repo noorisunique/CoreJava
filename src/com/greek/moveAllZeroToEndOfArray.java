@@ -1,8 +1,8 @@
-package greek.com;
+package com.greek;
 
 public class moveAllZeroToEndOfArray {
- 
-	    // Function which pushes all zeros to end of an array. 
+
+	// Function which pushes all zeros to end of an array.
 	static void pushZerosToEnd(int arr[], int n) {
 		int count = 0; // Count of non-zero elements
 
@@ -31,6 +31,5 @@ public class moveAllZeroToEndOfArray {
 			System.out.print(arr[i] + " ");
 	}
 }
-
 
 // 118490520924397

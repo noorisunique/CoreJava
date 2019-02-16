@@ -1,4 +1,4 @@
-package greek.com;
+package com.greek;
 
 public class RotateArray {
 	/* Function to left rotate arr[] of size n by d */

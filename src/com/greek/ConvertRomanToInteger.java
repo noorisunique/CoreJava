@@ -1,4 +1,4 @@
-package greek.com;
+package com.greek;
 
 import java.util.HashMap;
 import java.util.Map;
