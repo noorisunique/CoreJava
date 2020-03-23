@@ -1,4 +1,4 @@
-package com.Thread;
+package ThreadEx;
 
 class T1 implements Runnable{
 	public void run() {

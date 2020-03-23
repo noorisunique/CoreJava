@@ -1,4 +1,4 @@
-package com.Thread;
+package ThreadEx;
 
 class Test extends Thread {
 	private Integer number = 0;

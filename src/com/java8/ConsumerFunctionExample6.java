@@ -6,7 +6,7 @@ import java.util.function.Consumer;
 
 public class ConsumerFunctionExample6 {
 	public static void execute(int id, Consumer<Consumer<List<Integer>>> consumer) {
-		System.out.println(consumer.accept(t));
+		System.out.println(consumer.accept(id));
 	}
 
 	public static void main(String args[]) {

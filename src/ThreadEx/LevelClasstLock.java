@@ -1,4 +1,4 @@
-package com.Thread;
+package ThreadEx;
 
 class Greek1 implements Runnable{
 	

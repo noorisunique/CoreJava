@@ -1,4 +1,4 @@
-package com.Thread;
+package ThreadEx;
 
 class Sender {
 	public void send(String msg) {

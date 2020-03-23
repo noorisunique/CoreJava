@@ -1,5 +1,5 @@
 
-package com.Thread;
+package ThreadEx;
 
 // concept of joining a thread.
 import java.io.*;

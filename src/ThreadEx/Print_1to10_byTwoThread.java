@@ -1,4 +1,4 @@
-package com.Thread;
+package ThreadEx;
 
 class Table {
 	synchronized public void printNumber(int num) {

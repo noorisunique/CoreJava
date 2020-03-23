@@ -30,6 +30,6 @@ public class ConvertRomanToInteger {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(romantoInt("MCMIV"));
+		System.out.println(romantoInt("CDX"));
 	}
 }

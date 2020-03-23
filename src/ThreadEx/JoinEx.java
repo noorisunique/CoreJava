@@ -1,4 +1,4 @@
-package com.Thread;
+package ThreadEx;
 
 class AA implements Runnable {
 	public void run() {

@@ -1,4 +1,4 @@
-package com.Thread;
+package ThreadEx;
 
 //Java Program to demonstrate how  
 //to use CountDownLatch, Its used  

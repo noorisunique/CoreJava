@@ -1,4 +1,4 @@
-package com.Thread;
+package ThreadEx;
 
 //java program to demonstrate  
 //use of semaphores Locks 

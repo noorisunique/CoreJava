@@ -1,4 +1,4 @@
-package com.Thread;
+package ThreadEx;
 
 class A {
 	private int max = 20;

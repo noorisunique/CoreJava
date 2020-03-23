@@ -7,8 +7,7 @@ import java.util.function.Consumer;
 public class ConsumerFunctionExample {
 	public static void main(String args[]) {
 		Consumer<Integer> consumer = i -> System.out.print(" " + i);
-		List<Integer> integerList = Arrays.asList(new Integer(1), new Integer(10), new Integer(200), new Integer(101),
-				new Integer(-10), new Integer(0));
+		List<Integer> integerList = Arrays.asList(1,2,3,4,5);
 		printList(integerList, consumer);
 	}
 

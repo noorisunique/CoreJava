@@ -10,7 +10,7 @@ public class AtomicBooleanEx {
 		if (isFirstTime.get()) {
 			isFirstTime.set(false);
 		}
-		
+		System.out.println(isFirstTime.get());
 	}
 
 	public static void main(String[] args) {
@@ -19,6 +19,7 @@ public class AtomicBooleanEx {
 		o1.load();
 		o1.load();
 		o1.load();
+		
 		
 	}
 }

@@ -1,4 +1,4 @@
-package com.Thread;
+package ThreadEx;
 
 class TestSync {
 	public synchronized void n1(int threadId) {

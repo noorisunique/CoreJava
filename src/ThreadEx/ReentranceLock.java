@@ -1,4 +1,4 @@
-package com.Thread;
+package ThreadEx;
 
 import java.util.Date;
 import java.util.concurrent.locks.Lock;
