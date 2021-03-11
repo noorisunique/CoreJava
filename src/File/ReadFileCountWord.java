@@ -1,4 +1,4 @@
-package com.File;
+package File;
 
 import java.io.BufferedReader;
 import java.io.File;

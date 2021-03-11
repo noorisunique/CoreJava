@@ -10,6 +10,7 @@ public class MyTMCompUserDefine {
 		// By using name comparator (String comparison)
 		TreeMap<Empl, String> tm = new TreeMap<Empl, String>(new MyNameComp());
 		tm.put(new Empl("Ram", 3000), "RAM");
+		tm.put(new Empl("Ram", 3000), "RAM");
 		tm.put(new Empl("John", 6000), "JOHN");
 		tm.put(new Empl("Crish", 2000), "CRISH");
 		tm.put(new Empl("Tom", 2400), "TOM");

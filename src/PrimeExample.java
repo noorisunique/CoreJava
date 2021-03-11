@@ -1,7 +1,7 @@
 
 public class PrimeExample {
 	public static void main(String args[]) {
-		int n=25,flag=0;
+		int n=13,flag=0;
 		if(n==0 || n==1){
 			System.out.println(n+" is not prime");
 		}else{

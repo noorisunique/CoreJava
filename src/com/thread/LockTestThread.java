@@ -13,8 +13,8 @@ class PrintDemo {
          Long duration = (long) (Math.random() * 10000);
          System.out.println(Thread.currentThread().getName() 
             + "  Time Taken " + (duration / 1000) + " seconds.");
-         Thread.sleep(duration);
-      } catch (InterruptedException e) {
+        // Thread.sleep(duration);
+      } catch (Exception e) {
          e.printStackTrace();
       } finally {
          System.out.printf(

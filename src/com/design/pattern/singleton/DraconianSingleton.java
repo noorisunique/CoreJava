@@ -1,4 +1,4 @@
-package com.singleton;
+package com.design.pattern.singleton;
 
 public class DraconianSingleton {
 	private DraconianSingleton() {

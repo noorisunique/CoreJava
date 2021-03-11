@@ -1,4 +1,4 @@
-package com.singleton;
+package com.design.pattern.singleton;
 /*
  * Lazy Initialization
    Lazy initialization method to implement Singleton pattern creates the instance in

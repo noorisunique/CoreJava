@@ -1,4 +1,4 @@
-package com.singleton;
+package com.design.pattern.singleton;
 
 //https://www.baeldung.com/java-singleton-double-checked-locking\
 //Singleton pattern is mostly used in multi-threaded and database applications. It is used in logging, 

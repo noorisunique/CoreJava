@@ -13,11 +13,12 @@ public class QueueExample {
 		q.add(13);
 		q.add(13);
 		q.add(14);
-		System.out.println(q);
-		System.out.println(q.poll());
-		System.out.println(q);
-		System.out.println(q.peek());
+		System.out.println("q----"+q);
+		System.out.println("q.poll()---"+q.poll());
+		System.out.println("q...."+q);
+		System.out.println("q.peek()..."+q.peek());
+		System.out.println("q...."+q);
 		int r=q.remove();
-		System.out.println(q);
+		System.out.println("r..."+q);
 	}
 }

@@ -1,4 +1,4 @@
-package com.singleton;
+package com.design.pattern.singleton;
 /*
  * Static block initialization implementation is similar to eager initialization, 
  * except that instance of class is created in the static block that provides option for exception handling.

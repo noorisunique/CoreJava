@@ -1,4 +1,4 @@
-
+//121
 public class IntegerPalindrom {
 
 	public static void main(String[] args) {

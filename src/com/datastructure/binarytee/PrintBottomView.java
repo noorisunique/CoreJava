@@ -70,3 +70,12 @@ public class PrintBottomView {
 	}
 
 }
+/*
+20
+/    \
+8       22
+/   \    /   \
+5      3 4     25
+/ \      
+10    14
+*/

@@ -29,7 +29,7 @@ public class ExecutorServiceEx {
 		ExecutorService executor = Executors.newScheduledThreadPool(10);
 		executor.submit(new MyClass1());
 		executor.execute(new MyClass());
-		
+		executor.shutdown();
 		
 	}
 
