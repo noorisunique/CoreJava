@@ -1,0 +1,7 @@
+what is diff unbounded and bounded queue in java
+Bounded Queues are queues which are bounded by capacity that means we need to provide the max size of the queue at the time of creation.
+For example ArrayBlockingQueue (see previous example). 
+Unbounded Queues are queues which are NOT bounded by capacity that means we should not provide the size of the queue.
+
+ArrayBlockingQueue-Bounded 
+ConcurrentLinkedQueue-unbounded queue
